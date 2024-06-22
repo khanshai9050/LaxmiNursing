@@ -384,7 +384,7 @@ width:600px;
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/BackAll1.jpg)center center no-repeat;
     background-size: cover;
 }
 
@@ -526,6 +526,11 @@ width:600px;
 }
 
 
+/*** Gallery ***/
+.galleryborder
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 
 /*** Footer ***/
 .footer
