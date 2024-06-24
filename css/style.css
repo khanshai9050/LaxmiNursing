@@ -13,8 +13,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 25px;
-    bottom: 25px;
+   left: 8px;
+    bottom: 42px;
     z-index: 99;
     border-radius:50% !important;
     background-color: #A32828;
@@ -532,6 +532,27 @@ width:600px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+
+/*** Footer Fixed Navbar seen in small device**/
+
+.footerfixednav
+{
+    height:40px;
+    border-radius:40px 40px 0px 0px;
+    position: fixed;
+    bottom:-3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:none;
+    z-index: 1000;
+}
+
+@media(max-width:991px)
+{
+    .footerfixednav
+    {
+        display: block;
+    } 
+}
 /*** Footer ***/
 .footer
 {
